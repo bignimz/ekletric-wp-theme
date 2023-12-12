@@ -1,0 +1,50 @@
+{
+  "name": "ekletric",
+  "version": "1.0.0",
+  "description": "Premium WordPress theme",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build --prod",
+    "bundle": "gulp bundle --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bignimz/ekletric-wp-theme.git"
+  },
+  "keywords": [
+    "ekletric",
+    "repair",
+    "maintenance",
+    "corporate"
+  ],
+  "author": "Nimrod Musungu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bignimz/ekletric-wp-theme/issues"
+  },
+  "homepage": "https://github.com/bignimz/ekletric-wp-theme#readme",
+  "devDependencies": {
+    "@babel/core": "^7.23.5",
+    "@babel/preset-env": "^7.23.5",
+    "@babel/register": "^7.22.15",
+    "babel-loader": "^8.0.2",
+    "del": "^3.0.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-if": "^3.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-replace": "^1.1.4",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-zip": "^4.1.0",
+    "sass": "^1.69.5",
+    "vinyl-named": "^1.1.0",
+    "webpack-stream": "^4.0.3",
+    "yargs": "^17.7.2"
+  }
+}
