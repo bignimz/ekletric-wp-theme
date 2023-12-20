@@ -1,5 +1,2 @@
-import './components/slider';
+import "./components/slider";
 const $ = jQuery;
-$('body').click(() => {
-    alert('Clicked');
-})
